@@ -1,0 +1,112 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+.muzi {
+  position: relative;
+  margin: 50px auto;
+  width: 400px;
+  height: 450px;
+}
+.muzi .face {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 357px;
+  border-radius: 100%;
+  border: 10px solid #000;
+  background: #fff;
+}
+.muzi .innerFace {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 350px;
+  height: 310px;
+  border-radius: 100%;
+  border: 10px solid #000;
+  background: #f2cd03;
+}
+.muzi .ear {
+  position: absolute;
+  top: 0px;
+  width: 92px;
+  height: 290px;
+  border-radius: 50px;
+  border: 10px solid #000;
+  background: #fff;
+}
+.muzi .ear.left {
+  left: 54px;
+}
+.muzi .ear.right {
+  right: 54px;
+}
+.muzi .earhole {
+  position: absolute;
+  top: 20px;
+  width: 50px;
+  height: 150px;
+  border-radius: 50px;
+  border: 10px solid #000;
+  background: #f17d7f;
+}
+.muzi .earhole.left {
+  left: 10px;
+}
+.muzi .earhole.right {
+  right: 10px;
+}
+.muzi .eye {
+  position: absolute;
+  top: 85px;
+  width: 100px;
+  height: 50px;
+  border-radius: 40%;
+  border: 8px solid #000;
+  background: #fff;
+}
+.muzi .eye.left {
+  left: 45px;
+}
+.muzi .eye.right {
+  right: 45px;
+}
+.muzi .eyeball {
+  position: absolute;
+  top: 9px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #000;
+}
+.muzi .eyeball.left {
+  left: 35px;
+}
+.muzi .eyeball.right {
+  right: 35px;
+}
+.muzi .nose {
+  position: absolute;
+  top: 155px;
+  left: 51%;
+  margin-left: -16px;
+  width: 25px;
+  height: 25px;
+  border-radius: 80% 80% 100%;
+  background: #000;
+  z-index: 2;
+}
+.muzi .mouth {
+  position: absolute;
+  top: 210px;
+  left: 44%;
+  width: 40px;
+  height: 11px;
+  border-radius: 50px;
+  background: #000;
+}
